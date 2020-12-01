@@ -1,0 +1,14 @@
+GET /minecraft/profile/name/<NAME>/available HTTP/2
+Host: api.minecraftservices.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:83.0) Gecko/20100101 Firefox/83.0
+Accept: */*
+Accept-Language: fr,fr-FR;q=0.8,en-US;q=0.5,en;q=0.3
+Accept-Encoding: gzip, deflate, br
+Referer: https://www.minecraft.net/fr-fr/profile
+Authorization: Bearer [TOKEN]
+Origin: https://www.minecraft.net
+DNT: 1
+Connection: keep-alive
+Pragma: no-cache
+Cache-Control: no-cache
+TE: Trailers
